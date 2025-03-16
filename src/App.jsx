@@ -7,7 +7,6 @@ import SearchPage from './pages/SearchPage';
 import BookPage from './pages/BookPage';
 import ChapterPage from './pages/ChapterPage';
 
-
 const App = () => {
   return (
     <Router>
@@ -16,7 +15,8 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/search" element={<SearchPage />} />
         <Route path="/book/:id" element={<BookPage />} />
-        <Route path="/chapter/:id" element={<ChapterPage />} />
+        {/* Correct the dynamic chapter route */}
+        <Route path="/:book_name/:id" element={<ChapterPage />} />
       </Routes>
       <Footer />
     </Router>
