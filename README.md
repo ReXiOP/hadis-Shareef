@@ -15,7 +15,7 @@ A professional **Hadith search & reading platform** built with **React, Vite, Ta
 ---
 
 ## **🚀 Live Demo**
-👉 **[Visit the Hadith Shareef Website](https://your-live-link.com)**  
+👉 **[Visit the Hadith Shareef Website](https://hadis-shareef.vercel.app/)**  
 
 ---
 
@@ -105,7 +105,7 @@ export default defineConfig({
 ## **👨‍💻 Developer**
 📌 **Muhammad Sajid**  
 🌐 **[Portfolio](https://sajid09.netlify.app/)**  
-🔗 **[GitHub](https://github.com/your-username/)**  
+🔗 **[GitHub](https://github.com/ReXiOP/)**  
 
 ---
 
